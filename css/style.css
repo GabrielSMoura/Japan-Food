@@ -1,0 +1,267 @@
+body{
+    font-family: Nunito,sans-serif;
+    color: #1c1c1c;
+}
+h1,h2,h3{
+    font-family: Asap,sans-serif;
+    color: #000000;
+}
+
+.botao{
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000000;
+}
+nav > a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 32px;
+    font-family: Yellowtail,serif;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+nav ul li {
+    text-align: center;
+    width: 100%;
+}
+nav ul li a {
+    display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../img/h.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+}
+header p {
+    margin-bottom: 2em;
+}
+
+#sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 10px 20px 20px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+#sobre h2{
+    color: #FFFFFF;
+}
+#sobre p{
+    margin-bottom: 2.5em;
+    max-width: 1000px;
+}
+#sobre .botao{
+    background-color: #f1f1f1;
+    color: #1c1c1c;
+}
+#serviços{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+#serviços div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+#serviços img{
+    height: 80px;
+}
+#serviços img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#fotos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+#fotos h2 {
+    margin-bottom: 20px;
+}
+#fotos img{
+    width: 100%;
+}
+#contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+#contato h2{
+    color: #000000;
+}
+#contato div img{
+    height: 80px;
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+footer a{
+    text-decoration: none;
+    color: #00d9ff;
+}
+
+@media screen and (min-width: 768px){
+     
+    nav{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    nav ul{
+        flex-direction: row;
+        width: 70%;
+    }
+
+    header{
+        height: 600px;
+        height: 60vh;
+        justify-content: center;
+    }
+
+    #sobre{
+        height: 250px;
+        height: 30vh;
+        justify-content: center;
+        min-height: 250px;
+    }
+
+    #serviços{
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        max-width: 1000px;
+        margin: 0 auto;
+
+    }
+
+    #serviços h2{
+        text-align: center;
+        width: 100%;
+    }
+    
+    #serviços div{
+        flex: 1;
+        flex-basis: 150px;
+        padding: 0 10px;
+
+    }
+
+    #fotos{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #fotos h2{
+        width: 100%;
+        text-align: center;
+    }
+
+    #fotos img{
+        width: 33.3333333%;
+    }
+
+    #contato {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    #contato h2, #contato p{
+        width: 100%;
+    }
+}
+
+#cadastro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+#cadastro h2 {
+    color: #FFFFFF;
+}
+
+#cadastro form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px; /* Ajuste a largura máxima conforme necessário */
+    margin: 0 auto; /* Centralize o formulário horizontalmente */
+}
+
+#cadastro label {
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+#cadastro input[type="text"],
+#cadastro input[type="email"],
+#cadastro input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
+    color: #FFFFFF;
+}
+
+#cadastro input[type="submit"] {
+    padding: 10px 30px;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+}
+
+#cadastro input[type="submit"]:hover {
+    background-color: #1c1c1c; /* Mude a cor ao passar o mouse */
+}
