@@ -19,6 +19,3 @@
 - **Contato**: Formulário de contato para os visitantes enviarem perguntas ou feedback.
 - **Responsividade**: Design adaptado para funcionar bem em dispositivos móveis, tablets e desktops.
 
-## 🚀 Começando
-
-Siga estas instruções para obter uma cópia do projeto e executá-lo localmente.
