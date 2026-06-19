@@ -1,6 +1,5 @@
 # 🍣 Sushi Delight
 
-![Sushi Delight Logo](https://images.squarespace-cdn.com/content/v1/5b625f0d96d455ef934bf48c/1564692984022-CYQOE1DR2J7MN7SH5LUQ/1.jpg) <!-- Substitua pelo link do seu logo -->
 
 ## 📖 Descrição do Projeto
 
